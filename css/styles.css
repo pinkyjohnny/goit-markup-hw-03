@@ -1,0 +1,260 @@
+:root {
+  --defolt-background: #ffffff;
+  --dominant-color: #434455;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+
+  color: #434455;
+
+  background-color: var(--defolt-background);
+}
+
+/**
+  |============================
+  | Components
+  |============================
+*/
+.modal-btn {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+
+  background-color: #4d5ae5;
+  color: #fff;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--ocean, #404bbf);
+  color: #ffffff;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+
+  color: #2e2f42;
+}
+
+.page-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
+  color: #434455;
+}
+
+.page-text-theme-light {
+  color: #434455;
+}
+
+.page-text-theme-dark {
+  color: #f4f4fd;
+}
+/**
+  |============================
+  | /Components
+  |============================
+*/
+/**
+  |============================
+  | Header
+  |============================
+*/
+.logo-link {
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-color {
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #2e2f42;
+}
+
+.logo-link-theme-light {
+  color: #2e2f42;
+}
+
+.logo-link-theme-dark {
+  color: #f4f4fd;
+}
+
+.menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
+  color: #434455;
+}
+
+.contact:hover {
+  color: #404bbf;
+}
+
+.contact:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.page-header {
+  background-color: #ffffff;
+}
+/**
+  |============================
+  | /Header
+  |============================
+*/
+/**
+  |============================
+  | Hero
+  |============================
+*/
+.main-title {
+  font-size: 56px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+
+  color: #fff;
+  text-align: center;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+/**
+  |============================
+  | /Hero
+  |============================
+*/
+/**
+  |============================
+  | Main
+  |============================
+*/
+.section-background {
+  background-color: #fff;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-background {
+  background-color: #ffffff;
+}
+/**
+  |============================
+  | /Main
+  |============================
+*/
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer {
+  background-color: #2e2f42;
+}
+/**
+  |============================
+  | /Footer
+  |============================
+*/
+/* Portfolio page */
+/**
+  |============================
+  | Filters
+  |============================
+*/
+.filter-btn {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.filter-btn:hover {
+  background: var(--ocean, #404bbf);
+  color: #ffffff;
+}
+.filter-btn:focus {
+  background: var(--ocean, #404bbf);
+  color: #ffffff;
+}
+/**
+  |============================
+  | /Filters
+  |============================
+*/
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+.portfolio-page-section {
+  background-color: #ffffff;
+}
