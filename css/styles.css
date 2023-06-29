@@ -444,21 +444,15 @@ body {
 }
 
 .filter-btn:hover {
-  border: 1px solid;
-}
-
-.filter-btn:focus {
-  border: 1px solid;
-}
-
-.filter-btn:hover {
   background: var(--ocean, #404bbf);
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .filter-btn:focus {
   background: var(--ocean, #404bbf);
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 /**
