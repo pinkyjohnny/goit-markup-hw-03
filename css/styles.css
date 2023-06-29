@@ -163,6 +163,10 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.menu-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .contact-menu {
   display: flex;
@@ -366,15 +370,15 @@ body {
 
 .team-card {
   text-align: center;
-  /* margin-top: 32px;
-  margin-bottom: 32px; */
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
   background: var(--white, #fff);
+  padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .team-card-name {
@@ -447,10 +451,12 @@ body {
 .filter-btn:hover {
   background: var(--ocean, #404bbf);
   color: #ffffff;
+  border: 1px solid;
 }
 .filter-btn:focus {
   background: var(--ocean, #404bbf);
   color: #ffffff;
+  border: 1px solid;
 }
 /**
   |============================
@@ -473,6 +479,7 @@ body {
   flex-wrap: wrap;
   gap: 24px;
   flex-basis: calc((100% - 8 * 24px) / 9);
+  row-gap: 48px;
 }
 
 .portfolio-card {
@@ -484,6 +491,7 @@ body {
   gap: 8px;
   align-self: stretch;
 
+  border-top: none;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
