@@ -49,6 +49,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -113,7 +114,6 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  margin-bottom: 8px;
 
   color: #2e2f42;
 }
@@ -236,7 +236,7 @@ body {
   color: #404bbf;
 }
 
-.address {
+.contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -246,10 +246,6 @@ body {
 
 .address {
   margin-left: auto;
-}
-
-.contact {
-  margin-right: 40px;
 }
 
 .contact:hover {
@@ -313,8 +309,6 @@ body {
 }
 
 .speciality-list {
-  padding-top: 120px;
-  padding-bottom: 120px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -326,7 +320,6 @@ body {
 
 .advantages-section {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .advantages-list {
@@ -339,11 +332,6 @@ body {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.section {
-  padding-top: 188px;
-  padding-bottom: 120px;
-}
-
 .portfolio-page-section {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -352,7 +340,6 @@ body {
 .team-section {
   background-color: #f4f4fd;
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-list {
@@ -376,10 +363,6 @@ body {
   padding-right: 16px;
 }
 
-.team-card-name {
-  padding-top: 8px;
-}
-
 .section-title {
   margin-bottom: 72px;
 }
@@ -400,7 +383,7 @@ body {
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 
 .text-footer {
