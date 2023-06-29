@@ -341,6 +341,12 @@ body {
   padding-top: 188px;
   padding-bottom: 120px;
 }
+
+.portfolio-page-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .team-section {
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -434,7 +440,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 96px;
   margin-bottom: 72px;
   gap: 24px;
 }
