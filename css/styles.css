@@ -163,10 +163,6 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 
 .contact-menu {
   display: flex;
@@ -229,6 +225,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   color: #2e2f42;
 }
@@ -366,14 +364,11 @@ body {
 
 .team-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card {
   text-align: center;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
   background: var(--white, #fff);
   padding-top: 32px;
   padding-bottom: 32px;
@@ -449,15 +444,23 @@ body {
 }
 
 .filter-btn:hover {
-  background: var(--ocean, #404bbf);
-  color: #ffffff;
   border: 1px solid;
 }
+
+.filter-btn:focus {
+  border: 1px solid;
+}
+
+.filter-btn:hover {
+  background: var(--ocean, #404bbf);
+  color: #ffffff;
+}
+
 .filter-btn:focus {
   background: var(--ocean, #404bbf);
   color: #ffffff;
-  border: 1px solid;
 }
+
 /**
   |============================
   | /Filters
@@ -490,9 +493,8 @@ body {
   align-items: flex-start;
   gap: 8px;
   align-self: stretch;
-
-  border-top: none;
   border: 1px solid var(--cornflower, #e7e9fc);
+  border-top: none;
   background: var(--white, #fff);
 }
 
