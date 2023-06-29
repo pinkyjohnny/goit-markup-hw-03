@@ -49,7 +49,6 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -300,6 +299,11 @@ body {
   | Main
   |============================
 */
+
+.speciality-section {
+  padding-bottom: 120px;
+}
+
 .section-background {
   background-color: #fff;
 }
@@ -320,6 +324,7 @@ body {
 
 .advantages-section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .advantages-list {
@@ -340,6 +345,7 @@ body {
 .team-section {
   background-color: #f4f4fd;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-list {
@@ -383,7 +389,7 @@ body {
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
-  padding-bottom: 0px;
+  padding-bottom: 100px;
 }
 
 .text-footer {
